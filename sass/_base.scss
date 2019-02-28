@@ -40,10 +40,4 @@ body {
     grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; // sidebar, 1 variable column, 8 column grid, 1 variable column
     // this layout will allow you to have full bleed and container sized content
 
-    // just for testing
-    & > * {
-        padding: 40px;
-        font-size: 3rem;
-    }
-    // just for testing
 }
